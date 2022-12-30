@@ -62,7 +62,7 @@ BtnHold.addEventListener('click' , ()=>{
      
      
      if(score[activePlayer] >= 100){
-         
+         alert(`Игрок  ${activePlayer +1}  победил `)
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner')
 
         gameOver = false;
